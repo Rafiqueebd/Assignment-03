@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;   
+	}
+ 
+header{
+	width: 100%;
+	float: left;
+}
+
+.logo{
+	background-color:skyblue;
+	height: 75px;
+	width: 10%;
+	float: left;
+}
+.logo img{
+    padding: 10px;
+	height: 50px;
+	width: 70px;
+     }
+
+.menu{
+	background-color:lightblue;
+	height: 75px;
+	width: 60%;
+	float: left;
+}
+
+.menu nav ul{
+    list-style: none;
+
+}
+
+.menu nav ul li{ 
+	display: inline-block;
+	margin: 25px;
+
+}
+
+.menu nav ul li a{
+	color: blue;
+	font-size: 20px;
+	font-weight:600;
+    text-decoration: none   
+}
+
+.menu nav ul li a:hover{
+	border:1px solid #fff;
+
+}
+	
+ .icons{
+ 	background-color:skyblue;
+	height: 75px;
+	width: 30%;
+	float: left;
+ 	
+ }
+
+ .icons ul{
+ 	
+ 	
+ }
+
+ .icons ul li{
+ 	
+ }
+
+ .icons ul li a{
+ 	
+ }
+
+.banner{
+	width: 100%;
+	float: left;
+}
+ .banner-one{
+ 	background: url(../img/image01.jpg);
+  	margin: 0 auto;
+ 	background-repeat: no-repeat;
+ 	display: block;
+ 	background-size: cover;
+ 	height: 500px;
+	}
+
+
+.market{
+	border: 1px solid blue;
+	background: rgb(135,206,235, 0.2);
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 80px;
+	padding: 5px;
+	width: 200px;
+	height: 200px
+	}
+
+.market h1{
+	text-align: center;
+	margin-top: 20px;
+	
+	}
+
+.market p{
+	text-align: center;
+	margin-top: 5px;
+	}
+
+.button-one button{
+	background-color: skyblue;
+	border: none;
+	padding: 3PX;
+	display: block;
+	margin: 5px auto;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;
+	}
+
+.button-one button:hover{
+	background-color: blue;
+	}
+
+
+
+.button-two button{
+	background-color: skyblue;
+	border: none;
+	padding: 3PX;
+	display: block;
+	margin: 5px auto;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;  
+}
+
+.button-two button:hover{
+	background-color: blue;
+	}
+
+.service{
+	width: 100%;
+	float: left;
+}
+
+ 
+.service-one{
+	background-color:white;
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+
+.service-one img{
+	margin: 10px auto;
+ 	background-repeat: no-repeat;
+ 	display: block;
+ 	width: 60px;	
+}
+
+.service-one h1{
+	text-align: center;	
+}
+
+.service-one p{
+	text-align: center;
+	padding: 10px;
+	margin: 0 10px;	
+}
+
+.service-one button{
+	background-color: gray;
+	border: none;
+	padding: 3PX;
+	display: block;
+	margin: 5px auto;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;	
+}
+
+.service-one button:hover{
+	background-color: burlywood;
+	}
+
+
+
+.service-two{
+	background-color:white;
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+
+.service-two img{
+	margin: 10px auto;
+ 	background-repeat: no-repeat;
+ 	display: block;
+ 	width: 55px;	
+}
+
+.service-two h1{
+	text-align: center;	
+}
+
+.service-two p{
+	text-align: center;
+	padding: 10px;
+	margin: 0 10px;	
+}
+
+.service-two button{
+	background-color: gray;
+	border: none;
+	padding: 3PX;
+	display: block;
+	margin: 5px auto;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;	
+}
+
+.service-two button:hover{
+	background-color: burlywood;
+	}
+
+.service-three{
+	background-color:white;
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+
+.service-three img{
+	margin: 10px auto;
+ 	background-repeat: no-repeat;
+ 	display: block;
+ 	width: 55px;	
+}
+
+.service-three h1{
+	text-align: center;	
+}
+
+.service-three p{
+	text-align: center;
+	padding: 10px;
+	margin: 0 10px;	
+}
+
+.service-three button{
+	background-color: gray;
+	border: none;
+	padding: 3PX;
+	display: block;
+	margin: 5px auto;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;	
+}
+
+.service-three button:hover{
+	background-color: burlywood;
+	}
+
+.service-four{
+	background-color:white;
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+
+.service-four img{
+	margin: 10px auto;
+ 	background-repeat: no-repeat;
+ 	display: block;
+ 	width: 55px;	
+}
+
+.service-four h1{
+	text-align: center;	
+}
+
+.service-four p{
+	text-align: center;
+	padding: 10px;
+	margin: 0 10px;	
+}
+
+.service-four button{
+	background-color: gray;
+	border: none;
+	padding: 3PX;
+	display: block;
+	margin: 5px auto;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;	
+}
+
+.service-four button:hover{
+	background-color: burlywood;
+	}
+
+
+.blog-sec{
+	width: 100%;
+	float: left;
+}
+
+.blog{
+	height: 20px;
+	background-color: gray;
+}
+
+
+
+
+
